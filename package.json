@@ -1,8 +1,6 @@
 {
   "type": "module",
   "scripts": {
-    "predeploy" : "npm run build",
-    "deploy" : "gh-pages -d build",
     "start": "nodemon app"
   },
   "dependencies": {
@@ -15,8 +13,5 @@
   "description": "this is login page",
   "main": "app.js",
   "author": "Hashmatullah Afroz",
-  "license": "ISC",
-  "devDependencies": {
-    "gh-pages": "^4.0.0"
-  }
+  "license": "ISC"
 }
